@@ -1,0 +1,16 @@
+mov  
+// fact =1
+mov r5, r6 
+movu r2, 18 
+movh r2, 18 
+loop:
+mul r1, r1, r2  // fact = fact *i 
+sub r2, r2,1    // decrement i 
+cmp r2, 1        
+bgt  loop   
+nop
+st r0, [r3]     
+// compare I >1
+ // if I >1 then remain in loop
+mov r3, r1     // else the result is stored output port register r3              
+// stops program counter to be incremented
