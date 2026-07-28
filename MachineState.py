@@ -1,6 +1,6 @@
 '''
 This project is made by:
-Rounak Kumar -- 2401EC07,
+Krishna Teja -- 2401EC29,
 J.N. Lohithaswan -- 2401EC44
 '''
 
